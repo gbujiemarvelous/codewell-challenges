@@ -1,0 +1,79 @@
+body{
+  background-color:black;
+  padding: 50px;
+}
+/*top navigation*/
+.topnav{
+  background-color:black ;
+  overflow: auto;
+}
+
+.topnav a{
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.splitr{
+  float: right;
+  
+}
+.b1{
+  background-color: yellow;
+  height: 35px;
+}
+.b1:hover{
+  color: gray;
+}
+.center{
+  width: 50%;
+  margin: auto;
+}
+.p1{
+  color: white;
+  font-size: larger;
+}
+.t1{
+  color: antiquewhite;
+  font-size:smaller ;
+}
+.topnav a:hover{
+  color: gray;
+}
+
+/*mid navigatiion*/
+.midnav a{
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      width: 14%;
+}
+
+.imgrow{
+  display: flex;
+}
+.imgcol{
+  flex: 50%;
+  padding: 10px;
+}
+.botnav {
+  background-color:grey;
+  overflow: auto;
+}
+.botnav a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+  }
+.right{
+  float: right;
+  display: flex;
+}
